@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".StartupScreen">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:text="TaskSprint"
+        android:textColor="#090A4E"
+
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597" />
+
+    <Button
+        android:id="@+id/startupBtn"
+        android:layout_width="414dp"
+        android:layout_height="57dp"
+        android:background="@color/blue"
+        android:backgroundTint="#1F6B8C"
+        android:clipToOutline="true"
+        android:elevation="2dp"
+        android:outlineProvider="background"
+        android:stateListAnimator="@null"
+        android:text="Get Started"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textDescription1"
+        android:layout_width="350dp"
+        android:layout_height="126dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Welcome to TaskSprint, where productivity meets simplicity! Dive into your tasks with ease and manage your day like a pro. Tap 'Get Started' to begin your journey towards streamlined task management and achieving your goals effortlessly!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
